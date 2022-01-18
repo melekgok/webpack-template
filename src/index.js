@@ -2,7 +2,7 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
 import  App  from "./App.js";
-import '../src/assets/scss/app.scss';
+import '../src/sass/style.scss';
 
 
 

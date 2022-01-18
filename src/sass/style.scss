@@ -1,0 +1,316 @@
+@import "bootstrap";
+@import "variable";
+@import "button";
+@import "navbar";
+@import "margin";
+@import "textStyles";
+@import "~bootstrap/scss/bootstrap";
+
+
+/*home1 */
+.home1 {
+  height: 822px;
+  background-color: $container-color;
+  padding-top: 100px;
+
+  h1 {
+    width: 100%;
+    height: 198px;
+    color: $dark-arsinex;
+    font-family: $FONT-BOLD;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 68px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-right: 86px;
+  }
+
+  h3 {
+    height: 69px;
+    color: $light-dark-ax;
+    font-family: $FONT-LIGHT;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 43px;
+  }
+
+  h4 {
+    height: 36px;
+    color: $dark-arsinex;
+    font-family: $FONT-BOLD;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    padding-top: 50px;
+    margin-left: 350px;
+    margin-right: 300px;
+    padding-bottom: 40px;
+  }
+
+  .con1 {
+    background-color: white;
+    border-radius: 15px;
+    height: 140px;
+    width: 300px;
+    padding-top: 15px;
+  }
+
+  .grafik {
+    padding-left: 50px;
+  }
+  .arsin {
+    padding-left: 86px;
+  }
+}
+
+/*home 2*/
+
+.home2 {
+  margin-top: 160px;
+  .yellow-box {
+    width: 1125px;
+    height: 264px;
+    border-radius: 16px;
+    background-color: $primary-arsinex;
+
+    .circle-big {
+      width: 360px;
+      height: 360px;
+      border-radius: 360px;
+      background-image: linear-gradient(to top, #ffdec2 0%, #fefcf6 100%);
+    }
+  }
+
+  .yello-box {
+    padding-top: 72px;
+    margin-left: 73px;
+  }
+
+  h2 {
+    height: 44px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44px;
+    text-align: left;
+  }
+
+  .try {
+    font-family: $FONT-LIGHT;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  h3 {
+    width: 448px;
+    height: 58px;
+    color: #2e2e2e;
+    font-family: $FONT-LIGHT;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+  }
+}
+
+/*home 3*/
+
+.home3 {
+  margin-top: 194px;
+  h1 {
+    height: 114px;
+    color: $dark-arsinex;
+    font-family: $FONT-BOLD;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 58px;
+    text-align: center;
+  }
+
+  .carousel-item {
+    width: 935px;
+    height: 414px;
+    border-radius: 16px;
+    background-color: $container-color;
+
+    h1 {
+      height: 44px;
+      color: #181818;
+      font-family: $FONT-BOLD;
+      font-size: 32px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 44px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    h2 {
+      height: 58px;
+      color: #2e2e2e;
+      font-family: $FONT-LIGHT;
+      font-size: 20px;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 30px;
+      text-align: left;
+      margin-bottom: 50px;
+    }
+
+    .crousel {
+      padding-top: 100px;
+      align-items: center;
+    }
+  }
+}
+
+/*home 4*/
+
+.home4 {
+  margin-top: 160px;
+  h1 {
+    height: 58px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 58px;
+    text-align: center;
+  }
+  h2 {
+    height: 30px;
+    color: #2e2e2e;
+    font-family: $FONT-LIGHT;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  th {
+    width: 58px;
+    height: 20px;
+    color: #181818;
+    font-family: $FONT-LIGHT;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+  }
+  .text {
+    height: 24px;
+    color: #181818;
+    font-family: $FONT-MEDIUM;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .try {
+    font-family: $FONT-LIGHT;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .coin {
+    height: 28px;
+    color: #000000;
+    font-family: $font-medium;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+  .coin-long {
+    height: 14px;
+    color: #9c9da4;
+    font-family: $font-regular;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 14px;
+    text-align: center;
+    margin-left:9px;
+    margin-top: 15px;
+  }
+
+
+}
+
+@media screen and (max-width: 950px) {
+  .graph {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+
+  .home1 {
+    height: 582px;
+    background-color: $container-color;
+
+    h1 {
+      height: 221px;
+      color: #181818;
+      font-family: $FONT-BOLD;
+      font-size: 44px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 58px;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    h3 {
+      height: 88px;
+      color: #181818;
+      font-family: $FONT-LIGHT;
+      font-size: 20px;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 30px;
+      text-align: left;
+    }
+  }
+}

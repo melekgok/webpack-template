@@ -1,0 +1,74 @@
+@import "variable";
+
+.btn-hesap-aç {
+  width: 150px;
+  height: 51px;
+  border-radius: 25px;
+  background-color: $primary-arsinex;
+}
+
+.btn-ü-hesap-aç {
+  width: 230px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: $primary-arsinex;
+}
+
+.btn-language {
+  width: 28px;
+  height: 24px;
+  opacity: 0.5;
+  color: #000000;
+  font-family: $FONT-BOLD;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.btn-text {
+  width: 150px;
+  height: 28px;
+  color: $dark-arsinex;
+  font-family: $FONT-MEDIUM;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: center;
+}
+
+.btn-text-hesap {
+  width: 69px;
+  height: 24px;
+  color: $dark-arsinex;
+  font-family: $FONT-MEDIUM;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+}
+.btn-ş-hesap-aç {
+  width: 195px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: $primary-arsinex;
+  border-color: none;
+}
+.btn-t-g{
+  border-color: black;
+}
+@media screen and (max-width: 900) {
+  .btn-ü-hesap-aç {
+    width: 374px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: $primary-arsinex;
+  }
+}
