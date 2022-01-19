@@ -4,14 +4,16 @@
 @import "navbar";
 @import "margin";
 @import "textStyles";
-@import "~bootstrap/scss/bootstrap";
 
+.carousel-indicators [data-bs-target]{
 
-/*home1 */
+  background-color: #181818;
+
+}
+
 .home1 {
   height: 822px;
   background-color: $container-color;
-  padding-top: 100px;
 
   h1 {
     width: 100%;
@@ -72,65 +74,29 @@
   }
 }
 
-/*home 2*/
-
 .home2 {
   margin-top: 160px;
-  .yellow-box {
-    width: 1125px;
-    height: 264px;
-    border-radius: 16px;
-    background-color: $primary-arsinex;
 
-    .circle-big {
-      width: 360px;
-      height: 360px;
-      border-radius: 360px;
-      background-image: linear-gradient(to top, #ffdec2 0%, #fefcf6 100%);
-    }
+  .yelll {
+    position: absolute;
+  top: 20%;
+  left: 8%;
+
+  .coll{
+    margin-top: 20px;
+    margin-left: 340px;
   }
-
-  .yello-box {
-    padding-top: 72px;
-    margin-left: 73px;
   }
-
-  h2 {
-    height: 44px;
-    color: #181818;
-    font-family: $FONT-BOLD;
+  h1 {
     font-size: 32px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 44px;
     text-align: left;
   }
-
-  .try {
-    font-family: $FONT-LIGHT;
-    font-size: 24px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-  }
-
-  h3 {
-    width: 448px;
-    height: 58px;
-    color: #2e2e2e;
-    font-family: $FONT-LIGHT;
-    font-size: 20px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 30px;
+  h2{
     text-align: left;
   }
 }
 
-/*home 3*/
+/*home3*/
 
 .home3 {
   margin-top: 194px;
@@ -151,6 +117,11 @@
     height: 414px;
     border-radius: 16px;
     background-color: $container-color;
+    margin-left: 160px;
+
+    .contain {
+      margin: 100px 80px;
+    }
 
     h1 {
       height: 44px;
@@ -184,23 +155,55 @@
   }
 }
 
-/*home 4*/
+/*HOME 4*/
 
 .home4 {
   margin-top: 160px;
+
+  th {
+    width: 58px;
+    height: 20px;
+    color: #181818;
+    font-family: $FONT-LIGHT;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .table {
+    border-collapse: unset;
+  }
+}
+
+/*HOME 5*/
+
+.home5 {
+  margin-top: 160px;
+  height: 752px;
+  background-color: #f3f3f3;
+
+  .row {
+    padding-top: 160px;
+  }
+
   h1 {
-    height: 58px;
+    height: 129px;
     color: #181818;
     font-family: $FONT-BOLD;
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 58px;
-    text-align: center;
+    line-height: 44px;
+    text-align: left;
+    margin-bottom: 21px;
   }
+
   h2 {
-    height: 30px;
+    height: 58px;
     color: #2e2e2e;
     font-family: $FONT-LIGHT;
     font-size: 20px;
@@ -208,73 +211,140 @@
     font-style: normal;
     letter-spacing: normal;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 43px;
+  }
+
+  h3 {
     margin-top: 20px;
+  }
+
+  h4 {
+    margin-top: 10px;
+  }
+
+  .column {
+    padding-left: 164px;
+  }
+
+  .coll {
+    margin-top: 75px;
+  }
+}
+
+/*HOME6*/
+
+.home6 {
+  margin-top: 160px;
+  margin-bottom: 162px;
+
+  .con {
+    margin: 0px 380px;
+    img {
+      margin: 60px 30px;
+    }
+  }
+  .com {
+    margin: 0px 237px;
+  }
+  .conn {
+    margin: 24px 76px;
+  }
+
+  h3,
+  h4 {
+    text-align: center;
+  }
+}
+
+/*HOME7*/
+
+.home7 {
+  background-color: $primary-arsinex;
+  height: 542px;
+
+  h1 {
+    padding-top: 160px;
+    margin-bottom: 40px;
+  }
+  .row {
+    margin: 158px 247px;
+    h6 {
+      height: 24px;
+      color: #181818;
+      font-family: $FONT-BOLD;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 24px;
+      text-align: left;
+      margin-top: 20px;
+    }
+  }
+}
+
+/*HOME8*/
+
+.home8 {
+  margin-top: 160px;
+
+  .com {
+    margin-top: 50px;
+  }
+  .crousel {
+    width: 365px;
+    height: 226px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .crousell {
+    margin-top: 60px;
     margin-bottom: 40px;
   }
 
-  th {
-    width: 58px;
-    height: 20px;
-    color: #181818;
-    font-family: $FONT-LIGHT;
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 20px;
-    text-align: left;
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin-top: 80px;
   }
-  .text {
-    height: 24px;
-    color: #181818;
-    font-family: $FONT-MEDIUM;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 24px;
-    text-align: left;
-    text-transform: uppercase;
+}
+
+/*footer*/
+
+.footer {
+  height: 904px;
+  background-color: #f3f3f3;
+  margin-top: 160px;
+  .com {
+    padding-top: 160px;
   }
 
-  .try {
-    font-family: $FONT-LIGHT;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
+  .formm {
+    width: 20%;
+    border-radius: 25px 0px 0px 25px;
+  }
+  .comm {
+    margin: 42px 700px;
+  }
+  .commm {
+    margin-top: 120px;
+  }
+  .iletişim {
+    margin-top: 136px;
   }
 
-  .coin {
-    height: 28px;
-    color: #000000;
-    font-family: $font-medium;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 12px;
-    margin-top: 5px;
+  .roww {
+    margin-top: 20px;
   }
-  .coin-long {
-    height: 14px;
-    color: #9c9da4;
-    font-family: $font-regular;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 14px;
-    text-align: center;
-    margin-left:9px;
-    margin-top: 15px;
+  .commmm {
+    margin: 61px 900px;
+    .footer-text {
+      font-size: 18px;
+      margin: 10px 30px;
+    }
   }
-
-
 }
 
 @media screen and (max-width: 950px) {

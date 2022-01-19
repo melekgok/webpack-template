@@ -1,3 +1,4 @@
+@import "variable";
 
 .coin-name{
     width: 56px;
@@ -47,3 +48,188 @@ font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 }
+
+.coin{
+    width: 34px;
+height: 28px;
+color: #000000;
+font-family: $font-medium;
+font-size: 18px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 28px;
+text-align: left;
+text-transform: uppercase;
+margin-left: 12px;
+}
+
+.coin-long{
+    width: 45px;
+height: 14px;
+color: #9c9da4;
+font-family: $font-regular;
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 14px;
+text-align: left;
+margin-left: 9px;
+margin-top: 6px;
+}
+
+.text{
+    width: 118px;
+height: 24px;
+color: #181818;
+font-family: $FONT-BOLD;
+font-size: 16px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.TRY{
+    font-family: $FONT-LIGHT;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+h1{
+    height: 58px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 58px;
+    text-align: center;
+  }
+
+  h2 {
+    height: 30px;
+    color: #2e2e2e;
+    font-family: $FONT-LIGHT;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    height: 36px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  h4 {
+    height: 70px;
+    color: #2e2e2e;
+    font-family: $FONT-LIGHT;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  h5{
+    height: 20px;
+    opacity: 0.5;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emaill{
+    height: 36px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  .footer-header{
+    height: 24px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+  }
+  .footer-text{
+    color: #2e2e2e;
+    font-family: $FONT-LIGHT;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 0px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .carousel-text{
+    height: 36px;
+    color: #181818;
+    font-family: $FONT-BOLD;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+  }
+  .carousel-text1{
+    height: 46px;
+    color: #2e2e2e;
+    font-family: $FONT-LIGHT;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+  }
+  .carousel-text2{
+    height: 22px;
+    opacity: 0.5;
+    color: #181818;
+    font-family: $FONT-LIGHT;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+  }
